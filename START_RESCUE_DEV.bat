@@ -1,6 +1,4 @@
 @echo off
-setlocal
-title Rescue Simulator DEV
-for %%I in ("%~dp0.") do set "PROJECT=%%~fI"
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%PROJECT%\dev\start-dev.ps1" -ProjectPath "%PROJECT%"
+title Rescue Simulator - Rojo Server
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "E:\RobloxGame\RescueSimulator\dev\start-dev.ps1" -ProjectPath "E:\RobloxGame\RescueSimulator"
 pause
