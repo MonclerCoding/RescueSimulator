@@ -1,4 +1,6 @@
 @echo off
+setlocal
 title Rescue Simulator DEV
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0dev\start-dev.ps1" -ProjectPath "%~dp0"
+for %%I in ("%~dp0.") do set "PROJECT=%%~fI"
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%PROJECT%\dev\start-dev.ps1" -ProjectPath "%PROJECT%"
 pause

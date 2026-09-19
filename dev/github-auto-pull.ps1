@@ -1,4 +1,4 @@
-param(
+﻿param(
     [Parameter(Mandatory=$true)]
     [string]$ProjectPath,
 
@@ -6,6 +6,7 @@ param(
 )
 
 $ErrorActionPreference = "Continue"
+$ProjectPath = $ProjectPath.Trim().Trim('"').TrimEnd('\')
 
 try {
     $ProjectPath = (Resolve-Path $ProjectPath -ErrorAction Stop).Path.TrimEnd("\")
@@ -92,3 +93,4 @@ while ($true) {
 
     Start-Sleep -Seconds $IntervalSeconds
 }
+

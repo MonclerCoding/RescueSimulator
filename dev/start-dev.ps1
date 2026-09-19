@@ -1,4 +1,4 @@
-param(
+﻿param(
     [Parameter(Mandatory=$true)]
     [string]$ProjectPath
 )
@@ -6,6 +6,9 @@ param(
 # Native programs such as git/rojo often write normal status text to STDERR.
 # "Continue" prevents PowerShell 5.1 from treating that normal text as a fatal exception.
 $ErrorActionPreference = "Continue"
+
+# Obrona przed blednym cudzyslowem / koncowym backslashem z Windows BAT.
+$ProjectPath = $ProjectPath.Trim().Trim('"').TrimEnd('\')
 
 try {
     $ProjectPath = (Resolve-Path $ProjectPath -ErrorAction Stop).Path.TrimEnd("\")
@@ -97,3 +100,4 @@ if ($rojoExit -ne 0) {
     Write-Host "[BLAD] Rojo zakonczyl prace z kodem $rojoExit." -ForegroundColor Red
     exit $rojoExit
 }
+

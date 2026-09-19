@@ -1,9 +1,10 @@
-param(
+﻿param(
     [Parameter(Mandatory=$true)]
     [string]$ProjectPath
 )
 
 $ErrorActionPreference = "Continue"
+$ProjectPath = $ProjectPath.Trim().Trim('"').TrimEnd('\')
 
 try {
     $ProjectPath = (Resolve-Path $ProjectPath -ErrorAction Stop).Path.TrimEnd("\")
@@ -76,3 +77,4 @@ if ($LASTEXITCODE -ne 0) {
 }
 
 Say "[OK] Lokalna wersja wyslana na GitHub." Green
+
