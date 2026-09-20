@@ -12,106 +12,28 @@
       },
       "GeneratedRescueMap": {
         "$className": "Model",
-        "IslandSand": {
+        "TestBase": {
           "$className": "Part",
           "$properties": {
             "Anchored": true,
             "Size": [
-              340,
-              8,
-              340
+              110,
+              2,
+              110
             ],
             "Position": [
               0,
-              0,
+              -1.5,
               0
             ],
             "Color": [
-              0.87451,
-              0.784314,
-              0.545098
+              0.866667,
+              0.772549,
+              0.529412
             ],
             "Material": "Sand",
             "Transparency": 0,
             "CanCollide": true,
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth"
-          }
-        },
-        "IslandGrass": {
-          "$className": "Part",
-          "$properties": {
-            "Anchored": true,
-            "Size": [
-              302,
-              3,
-              302
-            ],
-            "Position": [
-              0,
-              5.5,
-              0
-            ],
-            "Color": [
-              0.356863,
-              0.611765,
-              0.305882
-            ],
-            "Material": "Grass",
-            "Transparency": 0,
-            "CanCollide": true,
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth"
-          }
-        },
-        "LakeBottom": {
-          "$className": "Part",
-          "$properties": {
-            "Anchored": true,
-            "Size": [
-              84,
-              1,
-              64
-            ],
-            "Position": [
-              5,
-              6.5,
-              -28
-            ],
-            "Color": [
-              0.627451,
-              0.54902,
-              0.372549
-            ],
-            "Material": "Sand",
-            "Transparency": 0,
-            "CanCollide": true,
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth"
-          }
-        },
-        "LakeWater": {
-          "$className": "Part",
-          "$properties": {
-            "Anchored": true,
-            "Size": [
-              78,
-              1.2,
-              58
-            ],
-            "Position": [
-              5,
-              7.3,
-              -28
-            ],
-            "Color": [
-              0.196078,
-              0.607843,
-              0.827451
-            ],
-            "Material": "Glass",
-            "Transparency": 0.22,
-            "CanCollide": false,
             "TopSurface": "Smooth",
             "BottomSurface": "Smooth"
           }
@@ -121,13 +43,13 @@
           "$properties": {
             "Anchored": true,
             "Size": [
-              1100,
+              320,
               3,
-              1100
+              320
             ],
             "Position": [
               0,
-              -5.7,
+              -5,
               0
             ],
             "Color": [
@@ -136,10 +58,2613 @@
               0.737255
             ],
             "Material": "Glass",
-            "Transparency": 0.16,
+            "Transparency": 0.18,
             "CanCollide": false,
             "TopSurface": "Smooth",
             "BottomSurface": "Smooth"
+          }
+        },
+        "TestGrid_10x10": {
+          "$className": "Model",
+          "Cell_1_1": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -45,
+                0,
+                -45
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_1_2": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -45,
+                0,
+                -35
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_1_3": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -45,
+                0,
+                -25
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_1_4": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -45,
+                0,
+                -15
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_1_5": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -45,
+                0,
+                -5
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_1_6": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -45,
+                0,
+                5
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_1_7": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -45,
+                0,
+                15
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_1_8": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -45,
+                0,
+                25
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_1_9": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -45,
+                0,
+                35
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_1_10": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -45,
+                0,
+                45
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_2_1": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -35,
+                0,
+                -45
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_2_2": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -35,
+                0,
+                -35
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_2_3": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -35,
+                0,
+                -25
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_2_4": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -35,
+                0,
+                -15
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_2_5": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -35,
+                0,
+                -5
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_2_6": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -35,
+                0,
+                5
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_2_7": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -35,
+                0,
+                15
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_2_8": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -35,
+                0,
+                25
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_2_9": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -35,
+                0,
+                35
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_2_10": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -35,
+                0,
+                45
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_3_1": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -25,
+                0,
+                -45
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_3_2": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -25,
+                0,
+                -35
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_3_3": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -25,
+                0,
+                -25
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_3_4": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -25,
+                0,
+                -15
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_3_5": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -25,
+                0,
+                -5
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_3_6": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -25,
+                0,
+                5
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_3_7": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -25,
+                0,
+                15
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_3_8": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -25,
+                0,
+                25
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_3_9": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -25,
+                0,
+                35
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_3_10": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -25,
+                0,
+                45
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_4_1": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -15,
+                0,
+                -45
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_4_2": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -15,
+                0,
+                -35
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_4_3": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -15,
+                0,
+                -25
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_4_4": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -15,
+                0,
+                -15
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_4_5": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -15,
+                0,
+                -5
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_4_6": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -15,
+                0,
+                5
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_4_7": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -15,
+                0,
+                15
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_4_8": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -15,
+                0,
+                25
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_4_9": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -15,
+                0,
+                35
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_4_10": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -15,
+                0,
+                45
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_5_1": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -5,
+                0,
+                -45
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_5_2": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -5,
+                0,
+                -35
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_5_3": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -5,
+                0,
+                -25
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_5_4": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -5,
+                0,
+                -15
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_5_5": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -5,
+                0,
+                -5
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_5_6": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -5,
+                0,
+                5
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_5_7": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -5,
+                0,
+                15
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_5_8": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -5,
+                0,
+                25
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_5_9": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -5,
+                0,
+                35
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_5_10": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                -5,
+                0,
+                45
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_6_1": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                5,
+                0,
+                -45
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_6_2": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                5,
+                0,
+                -35
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_6_3": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                5,
+                0,
+                -25
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_6_4": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                5,
+                0,
+                -15
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_6_5": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                5,
+                0,
+                -5
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_6_6": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                5,
+                0,
+                5
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_6_7": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                5,
+                0,
+                15
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_6_8": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                5,
+                0,
+                25
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_6_9": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                5,
+                0,
+                35
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_6_10": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                5,
+                0,
+                45
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_7_1": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                15,
+                0,
+                -45
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_7_2": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                15,
+                0,
+                -35
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_7_3": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                15,
+                0,
+                -25
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_7_4": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                15,
+                0,
+                -15
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_7_5": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                15,
+                0,
+                -5
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_7_6": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                15,
+                0,
+                5
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_7_7": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                15,
+                0,
+                15
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_7_8": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                15,
+                0,
+                25
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_7_9": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                15,
+                0,
+                35
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_7_10": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                15,
+                0,
+                45
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_8_1": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                25,
+                0,
+                -45
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_8_2": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                25,
+                0,
+                -35
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_8_3": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                25,
+                0,
+                -25
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_8_4": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                25,
+                0,
+                -15
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_8_5": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                25,
+                0,
+                -5
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_8_6": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                25,
+                0,
+                5
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_8_7": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                25,
+                0,
+                15
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_8_8": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                25,
+                0,
+                25
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_8_9": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                25,
+                0,
+                35
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_8_10": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                25,
+                0,
+                45
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_9_1": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                35,
+                0,
+                -45
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_9_2": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                35,
+                0,
+                -35
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_9_3": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                35,
+                0,
+                -25
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_9_4": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                35,
+                0,
+                -15
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_9_5": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                35,
+                0,
+                -5
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_9_6": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                35,
+                0,
+                5
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_9_7": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                35,
+                0,
+                15
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_9_8": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                35,
+                0,
+                25
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_9_9": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                35,
+                0,
+                35
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_9_10": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                35,
+                0,
+                45
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_10_1": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                45,
+                0,
+                -45
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_10_2": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                45,
+                0,
+                -35
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_10_3": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                45,
+                0,
+                -25
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_10_4": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                45,
+                0,
+                -15
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_10_5": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                45,
+                0,
+                -5
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_10_6": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                45,
+                0,
+                5
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_10_7": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                45,
+                0,
+                15
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_10_8": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                45,
+                0,
+                25
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_10_9": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                45,
+                0,
+                35
+              ],
+              "Color": [
+                0.329412,
+                0.576471,
+                0.282353
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
+          },
+          "Cell_10_10": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                9.75,
+                1,
+                9.75
+              ],
+              "Position": [
+                45,
+                0,
+                45
+              ],
+              "Color": [
+                0.356863,
+                0.611765,
+                0.305882
+              ],
+              "Material": "Grass",
+              "Transparency": 0,
+              "CanCollide": true,
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth"
+            }
           }
         },
         "StarterIslandSpawn": {
@@ -147,14 +2672,14 @@
           "$properties": {
             "Anchored": true,
             "Size": [
-              10,
+              8,
               1,
-              10
+              8
             ],
             "Position": [
-              -105,
-              8,
-              88
+              -30,
+              1,
+              25
             ],
             "Color": [
               0.278431,
@@ -170,6 +2695,58 @@
             "Duration": 0
           }
         },
+        "LakeBottom": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              19,
+              0.8,
+              19
+            ],
+            "Position": [
+              27,
+              -0.15,
+              -27
+            ],
+            "Color": [
+              0.603922,
+              0.529412,
+              0.356863
+            ],
+            "Material": "Sand",
+            "Transparency": 0,
+            "CanCollide": true,
+            "TopSurface": "Smooth",
+            "BottomSurface": "Smooth"
+          }
+        },
+        "LakeWater": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              18,
+              0.7,
+              18
+            ],
+            "Position": [
+              27,
+              0.7,
+              -27
+            ],
+            "Color": [
+              0.196078,
+              0.607843,
+              0.827451
+            ],
+            "Material": "Glass",
+            "Transparency": 0.18,
+            "CanCollide": false,
+            "TopSurface": "Smooth",
+            "BottomSurface": "Smooth"
+          }
+        },
         "Dock": {
           "$className": "Model",
           "Plank1": {
@@ -177,14 +2754,14 @@
             "$properties": {
               "Anchored": true,
               "Size": [
-                6,
-                0.8,
+                5,
+                0.6,
                 5
               ],
               "Position": [
-                35.0,
-                8.5,
-                -28
+                14.0,
+                1.1,
+                -27
               ],
               "Color": [
                 0.576471,
@@ -203,14 +2780,14 @@
             "$properties": {
               "Anchored": true,
               "Size": [
-                6,
-                0.8,
+                5,
+                0.6,
                 5
               ],
               "Position": [
-                40.5,
-                8.5,
-                -28
+                18.5,
+                1.1,
+                -27
               ],
               "Color": [
                 0.576471,
@@ -229,92 +2806,14 @@
             "$properties": {
               "Anchored": true,
               "Size": [
-                6,
-                0.8,
+                5,
+                0.6,
                 5
               ],
               "Position": [
-                46.0,
-                8.5,
-                -28
-              ],
-              "Color": [
-                0.576471,
-                0.403922,
-                0.262745
-              ],
-              "Material": "WoodPlanks",
-              "Transparency": 0,
-              "CanCollide": true,
-              "TopSurface": "Smooth",
-              "BottomSurface": "Smooth"
-            }
-          },
-          "Plank4": {
-            "$className": "Part",
-            "$properties": {
-              "Anchored": true,
-              "Size": [
-                6,
-                0.8,
-                5
-              ],
-              "Position": [
-                51.5,
-                8.5,
-                -28
-              ],
-              "Color": [
-                0.576471,
-                0.403922,
-                0.262745
-              ],
-              "Material": "WoodPlanks",
-              "Transparency": 0,
-              "CanCollide": true,
-              "TopSurface": "Smooth",
-              "BottomSurface": "Smooth"
-            }
-          },
-          "Plank5": {
-            "$className": "Part",
-            "$properties": {
-              "Anchored": true,
-              "Size": [
-                6,
-                0.8,
-                5
-              ],
-              "Position": [
-                57.0,
-                8.5,
-                -28
-              ],
-              "Color": [
-                0.576471,
-                0.403922,
-                0.262745
-              ],
-              "Material": "WoodPlanks",
-              "Transparency": 0,
-              "CanCollide": true,
-              "TopSurface": "Smooth",
-              "BottomSurface": "Smooth"
-            }
-          },
-          "Plank6": {
-            "$className": "Part",
-            "$properties": {
-              "Anchored": true,
-              "Size": [
-                6,
-                0.8,
-                5
-              ],
-              "Position": [
-                62.5,
-                8.5,
-                -28
+                23.0,
+                1.1,
+                -27
               ],
               "Color": [
                 0.576471,
@@ -336,14 +2835,14 @@
             "$properties": {
               "Anchored": true,
               "Size": [
-                1.2,
-                13,
-                1.2
+                0.8,
+                7,
+                0.8
               ],
               "Position": [
-                85.5,
-                13.5,
-                57.5
+                21,
+                4,
+                22
               ],
               "Color": [
                 0.823529,
@@ -362,14 +2861,14 @@
             "$properties": {
               "Anchored": true,
               "Size": [
-                1.2,
-                13,
-                1.2
+                0.8,
+                7,
+                0.8
               ],
               "Position": [
-                85.5,
-                13.5,
-                66.5
+                21,
+                4,
+                28
               ],
               "Color": [
                 0.823529,
@@ -388,14 +2887,14 @@
             "$properties": {
               "Anchored": true,
               "Size": [
-                1.2,
-                13,
-                1.2
+                0.8,
+                7,
+                0.8
               ],
               "Position": [
-                98.5,
-                13.5,
-                57.5
+                29,
+                4,
+                22
               ],
               "Color": [
                 0.823529,
@@ -414,14 +2913,14 @@
             "$properties": {
               "Anchored": true,
               "Size": [
-                1.2,
-                13,
-                1.2
+                0.8,
+                7,
+                0.8
               ],
               "Position": [
-                98.5,
-                13.5,
-                66.5
+                29,
+                4,
+                28
               ],
               "Color": [
                 0.823529,
@@ -440,14 +2939,14 @@
             "$properties": {
               "Anchored": true,
               "Size": [
-                17,
-                1,
-                13
+                11,
+                0.8,
+                9
               ],
               "Position": [
-                92,
-                19,
-                62
+                25,
+                7.6,
+                25
               ],
               "Color": [
                 0.823529,
@@ -466,14 +2965,14 @@
             "$properties": {
               "Anchored": true,
               "Size": [
-                13,
-                6,
-                1
+                9,
+                4,
+                0.6
               ],
               "Position": [
-                92,
-                22.5,
-                66.5
+                25,
+                9.8,
+                28.5
               ],
               "Color": [
                 0.960784,
@@ -492,14 +2991,14 @@
             "$properties": {
               "Anchored": true,
               "Size": [
-                1,
-                6,
-                8
+                0.6,
+                4,
+                6
               ],
               "Position": [
-                86,
-                22.5,
-                62.5
+                20.8,
+                9.8,
+                25.5
               ],
               "Color": [
                 0.960784,
@@ -518,14 +3017,14 @@
             "$properties": {
               "Anchored": true,
               "Size": [
-                1,
-                6,
-                8
+                0.6,
+                4,
+                6
               ],
               "Position": [
-                98,
-                22.5,
-                62.5
+                29.2,
+                9.8,
+                25.5
               ],
               "Color": [
                 0.960784,
@@ -544,14 +3043,14 @@
             "$properties": {
               "Anchored": true,
               "Size": [
-                16,
-                1.2,
-                12
+                12,
+                0.8,
+                9
               ],
               "Position": [
-                92,
-                26,
-                62.8
+                25,
+                12.1,
+                25.5
               ],
               "Color": [
                 0.854902,
@@ -570,14 +3069,14 @@
             "$properties": {
               "Anchored": true,
               "Size": [
-                9,
-                2.5,
-                0.6
+                6,
+                1.4,
+                0.4
               ],
               "Position": [
-                92,
-                23,
-                57
+                25,
+                10.2,
+                21.9
               ],
               "Color": [
                 0.854902,
@@ -596,14 +3095,14 @@
             "$properties": {
               "Anchored": true,
               "Size": [
-                6,
                 5,
+                4,
                 3
               ],
               "Position": [
-                92,
-                9.5,
-                54
+                25,
+                3,
+                18
               ],
               "Color": [
                 1.0,
@@ -617,19 +3116,19 @@
               "BottomSurface": "Smooth"
             }
           },
-          "LadderStep2": {
+          "LadderStep_2": {
             "$className": "Part",
             "$properties": {
               "Anchored": true,
               "Size": [
-                4.5,
-                0.35,
-                0.5
+                3,
+                0.25,
+                0.35
               ],
               "Position": [
-                92,
-                9,
-                56
+                25,
+                2,
+                19.8
               ],
               "Color": [
                 0.431373,
@@ -643,19 +3142,19 @@
               "BottomSurface": "Smooth"
             }
           },
-          "LadderStep4": {
+          "LadderStep_3_5": {
             "$className": "Part",
             "$properties": {
               "Anchored": true,
               "Size": [
-                4.5,
-                0.35,
-                0.5
+                3,
+                0.25,
+                0.35
               ],
               "Position": [
-                92,
-                11,
-                56
+                25,
+                3.5,
+                19.8
               ],
               "Color": [
                 0.431373,
@@ -669,19 +3168,19 @@
               "BottomSurface": "Smooth"
             }
           },
-          "LadderStep6": {
+          "LadderStep_5": {
             "$className": "Part",
             "$properties": {
               "Anchored": true,
               "Size": [
-                4.5,
-                0.35,
-                0.5
+                3,
+                0.25,
+                0.35
               ],
               "Position": [
-                92,
-                13,
-                56
+                25,
+                5,
+                19.8
               ],
               "Color": [
                 0.431373,
@@ -695,45 +3194,19 @@
               "BottomSurface": "Smooth"
             }
           },
-          "LadderStep8": {
+          "LadderStep_6_5": {
             "$className": "Part",
             "$properties": {
               "Anchored": true,
               "Size": [
-                4.5,
-                0.35,
-                0.5
+                3,
+                0.25,
+                0.35
               ],
               "Position": [
-                92,
-                15,
-                56
-              ],
-              "Color": [
-                0.431373,
-                0.345098,
-                0.254902
-              ],
-              "Material": "WoodPlanks",
-              "Transparency": 0,
-              "CanCollide": true,
-              "TopSurface": "Smooth",
-              "BottomSurface": "Smooth"
-            }
-          },
-          "LadderStep10": {
-            "$className": "Part",
-            "$properties": {
-              "Anchored": true,
-              "Size": [
-                4.5,
-                0.35,
-                0.5
-              ],
-              "Position": [
-                92,
-                17,
-                56
+                25,
+                6.5,
+                19.8
               ],
               "Color": [
                 0.431373,
@@ -752,14 +3225,14 @@
             "$properties": {
               "Anchored": true,
               "Size": [
-                0.45,
-                11,
-                0.45
+                0.3,
+                6,
+                0.3
               ],
               "Position": [
-                90,
-                13,
-                56
+                23.7,
+                4.5,
+                19.8
               ],
               "Color": [
                 0.431373,
@@ -778,14 +3251,14 @@
             "$properties": {
               "Anchored": true,
               "Size": [
-                0.45,
-                11,
-                0.45
+                0.3,
+                6,
+                0.3
               ],
               "Position": [
-                94,
-                13,
-                56
+                26.3,
+                4.5,
+                19.8
               ],
               "Color": [
                 0.431373,
@@ -812,9 +3285,9 @@
                 1
               ],
               "Position": [
-                -66,
-                10,
-                -58
+                0,
+                3,
+                -2
               ],
               "Color": [
                 0.137255,
@@ -838,9 +3311,9 @@
                 1.5
               ],
               "Position": [
-                -66,
-                11.5,
-                -58
+                0,
+                4.5,
+                -2
               ],
               "Color": [
                 0.117647,
@@ -864,9 +3337,9 @@
                 2.4
               ],
               "Position": [
-                -66,
-                14.7,
-                -58
+                0,
+                7.7,
+                -2
               ],
               "Color": [
                 0.933333,
@@ -891,9 +3364,9 @@
                 1
               ],
               "Position": [
-                -68,
-                11.5,
-                -58
+                -2,
+                4.5,
+                -2
               ],
               "Color": [
                 0.933333,
@@ -917,9 +3390,9 @@
                 1
               ],
               "Position": [
-                -64,
-                11.5,
-                -58
+                2,
+                4.5,
+                -2
               ],
               "Color": [
                 0.933333,
@@ -943,9 +3416,9 @@
                 1.2
               ],
               "Position": [
-                -66.8,
-                8.5,
-                -58
+                -0.8,
+                1.8,
+                -2
               ],
               "Color": [
                 0.121569,
@@ -969,9 +3442,9 @@
                 1.2
               ],
               "Position": [
-                -65.2,
-                8.5,
-                -58
+                0.8,
+                1.8,
+                -2
               ],
               "Color": [
                 0.121569,
@@ -991,14 +3464,14 @@
           "$properties": {
             "Anchored": true,
             "Size": [
-              18,
-              9,
-              1
+              12,
+              6,
+              0.6
             ],
             "Position": [
-              -86,
-              12,
-              38
+              -25,
+              4,
+              -15
             ],
             "Color": [
               0.098039,
@@ -1019,14 +3492,14 @@
             "$properties": {
               "Anchored": true,
               "Size": [
-                2.55,
-                9.18,
-                2.55
+                1.6,
+                6,
+                1.6
               ],
               "Position": [
-                -120,
-                11.59,
-                -105
+                -38,
+                3.5,
+                -38
               ],
               "Color": [
                 0.462745,
@@ -1045,14 +3518,14 @@
             "$properties": {
               "Anchored": true,
               "Size": [
-                9.18,
-                8.16,
-                9.18
+                6,
+                6,
+                6
               ],
               "Position": [
-                -120,
-                18.22,
-                -105
+                -38,
+                8,
+                -38
               ],
               "Color": [
                 0.247059,
@@ -1075,14 +3548,14 @@
             "$properties": {
               "Anchored": true,
               "Size": [
-                2.8500000000000005,
-                10.260000000000002,
-                2.8500000000000005
+                1.6,
+                6,
+                1.6
               ],
               "Position": [
-                -100,
-                12.13,
-                -125
+                -38,
+                3.5,
+                38
               ],
               "Color": [
                 0.462745,
@@ -1101,14 +3574,14 @@
             "$properties": {
               "Anchored": true,
               "Size": [
-                10.260000000000002,
-                9.120000000000001,
-                10.260000000000002
+                6,
+                6,
+                6
               ],
               "Position": [
-                -100,
-                19.54,
-                -125
+                -38,
+                8,
+                38
               ],
               "Color": [
                 0.247059,
@@ -1131,14 +3604,14 @@
             "$properties": {
               "Anchored": true,
               "Size": [
-                2.25,
-                8.1,
-                2.25
+                1.6,
+                6,
+                1.6
               ],
               "Position": [
-                -65,
-                11.05,
-                -120
+                38,
+                3.5,
+                -38
               ],
               "Color": [
                 0.462745,
@@ -1157,14 +3630,14 @@
             "$properties": {
               "Anchored": true,
               "Size": [
-                8.1,
-                7.2,
-                8.1
+                6,
+                6,
+                6
               ],
               "Position": [
-                -65,
-                16.9,
-                -120
+                38,
+                8,
+                -38
               ],
               "Color": [
                 0.247059,
@@ -1187,14 +3660,14 @@
             "$properties": {
               "Anchored": true,
               "Size": [
-                2.55,
-                9.18,
-                2.55
+                1.6,
+                6,
+                1.6
               ],
               "Position": [
-                105,
-                11.59,
-                -110
+                38,
+                3.5,
+                38
               ],
               "Color": [
                 0.462745,
@@ -1213,14 +3686,14 @@
             "$properties": {
               "Anchored": true,
               "Size": [
-                9.18,
-                8.16,
-                9.18
+                6,
+                6,
+                6
               ],
               "Position": [
-                105,
-                18.22,
-                -110
+                38,
+                8,
+                38
               ],
               "Color": [
                 0.247059,
@@ -1234,610 +3707,6 @@
               "BottomSurface": "Smooth",
               "Shape": "Ball"
             }
-          }
-        },
-        "Tree5": {
-          "$className": "Model",
-          "Trunk": {
-            "$className": "Part",
-            "$properties": {
-              "Anchored": true,
-              "Size": [
-                2.8500000000000005,
-                10.260000000000002,
-                2.8500000000000005
-              ],
-              "Position": [
-                125,
-                12.13,
-                -72
-              ],
-              "Color": [
-                0.462745,
-                0.309804,
-                0.196078
-              ],
-              "Material": "Wood",
-              "Transparency": 0,
-              "CanCollide": true,
-              "TopSurface": "Smooth",
-              "BottomSurface": "Smooth"
-            }
-          },
-          "Leaves": {
-            "$className": "Part",
-            "$properties": {
-              "Anchored": true,
-              "Size": [
-                10.260000000000002,
-                9.120000000000001,
-                10.260000000000002
-              ],
-              "Position": [
-                125,
-                19.54,
-                -72
-              ],
-              "Color": [
-                0.247059,
-                0.568627,
-                0.294118
-              ],
-              "Material": "Grass",
-              "Transparency": 0,
-              "CanCollide": false,
-              "TopSurface": "Smooth",
-              "BottomSurface": "Smooth",
-              "Shape": "Ball"
-            }
-          }
-        },
-        "Tree6": {
-          "$className": "Model",
-          "Trunk": {
-            "$className": "Part",
-            "$properties": {
-              "Anchored": true,
-              "Size": [
-                2.25,
-                8.1,
-                2.25
-              ],
-              "Position": [
-                125,
-                11.05,
-                110
-              ],
-              "Color": [
-                0.462745,
-                0.309804,
-                0.196078
-              ],
-              "Material": "Wood",
-              "Transparency": 0,
-              "CanCollide": true,
-              "TopSurface": "Smooth",
-              "BottomSurface": "Smooth"
-            }
-          },
-          "Leaves": {
-            "$className": "Part",
-            "$properties": {
-              "Anchored": true,
-              "Size": [
-                8.1,
-                7.2,
-                8.1
-              ],
-              "Position": [
-                125,
-                16.9,
-                110
-              ],
-              "Color": [
-                0.247059,
-                0.568627,
-                0.294118
-              ],
-              "Material": "Grass",
-              "Transparency": 0,
-              "CanCollide": false,
-              "TopSurface": "Smooth",
-              "BottomSurface": "Smooth",
-              "Shape": "Ball"
-            }
-          }
-        },
-        "Tree7": {
-          "$className": "Model",
-          "Trunk": {
-            "$className": "Part",
-            "$properties": {
-              "Anchored": true,
-              "Size": [
-                2.55,
-                9.18,
-                2.55
-              ],
-              "Position": [
-                76,
-                11.59,
-                125
-              ],
-              "Color": [
-                0.462745,
-                0.309804,
-                0.196078
-              ],
-              "Material": "Wood",
-              "Transparency": 0,
-              "CanCollide": true,
-              "TopSurface": "Smooth",
-              "BottomSurface": "Smooth"
-            }
-          },
-          "Leaves": {
-            "$className": "Part",
-            "$properties": {
-              "Anchored": true,
-              "Size": [
-                9.18,
-                8.16,
-                9.18
-              ],
-              "Position": [
-                76,
-                18.22,
-                125
-              ],
-              "Color": [
-                0.247059,
-                0.568627,
-                0.294118
-              ],
-              "Material": "Grass",
-              "Transparency": 0,
-              "CanCollide": false,
-              "TopSurface": "Smooth",
-              "BottomSurface": "Smooth",
-              "Shape": "Ball"
-            }
-          }
-        },
-        "Tree8": {
-          "$className": "Model",
-          "Trunk": {
-            "$className": "Part",
-            "$properties": {
-              "Anchored": true,
-              "Size": [
-                2.8500000000000005,
-                10.260000000000002,
-                2.8500000000000005
-              ],
-              "Position": [
-                -115,
-                12.13,
-                118
-              ],
-              "Color": [
-                0.462745,
-                0.309804,
-                0.196078
-              ],
-              "Material": "Wood",
-              "Transparency": 0,
-              "CanCollide": true,
-              "TopSurface": "Smooth",
-              "BottomSurface": "Smooth"
-            }
-          },
-          "Leaves": {
-            "$className": "Part",
-            "$properties": {
-              "Anchored": true,
-              "Size": [
-                10.260000000000002,
-                9.120000000000001,
-                10.260000000000002
-              ],
-              "Position": [
-                -115,
-                19.54,
-                118
-              ],
-              "Color": [
-                0.247059,
-                0.568627,
-                0.294118
-              ],
-              "Material": "Grass",
-              "Transparency": 0,
-              "CanCollide": false,
-              "TopSurface": "Smooth",
-              "BottomSurface": "Smooth",
-              "Shape": "Ball"
-            }
-          }
-        },
-        "Tree9": {
-          "$className": "Model",
-          "Trunk": {
-            "$className": "Part",
-            "$properties": {
-              "Anchored": true,
-              "Size": [
-                2.25,
-                8.1,
-                2.25
-              ],
-              "Position": [
-                -50,
-                11.05,
-                126
-              ],
-              "Color": [
-                0.462745,
-                0.309804,
-                0.196078
-              ],
-              "Material": "Wood",
-              "Transparency": 0,
-              "CanCollide": true,
-              "TopSurface": "Smooth",
-              "BottomSurface": "Smooth"
-            }
-          },
-          "Leaves": {
-            "$className": "Part",
-            "$properties": {
-              "Anchored": true,
-              "Size": [
-                8.1,
-                7.2,
-                8.1
-              ],
-              "Position": [
-                -50,
-                16.9,
-                126
-              ],
-              "Color": [
-                0.247059,
-                0.568627,
-                0.294118
-              ],
-              "Material": "Grass",
-              "Transparency": 0,
-              "CanCollide": false,
-              "TopSurface": "Smooth",
-              "BottomSurface": "Smooth",
-              "Shape": "Ball"
-            }
-          }
-        },
-        "Rock1": {
-          "$className": "Part",
-          "$properties": {
-            "Anchored": true,
-            "Size": [
-              5,
-              3.5,
-              6
-            ],
-            "Position": [
-              145.0,
-              7.8,
-              0.0
-            ],
-            "Color": [
-              0.411765,
-              0.435294,
-              0.458824
-            ],
-            "Material": "Slate",
-            "Transparency": 0,
-            "CanCollide": true,
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth",
-            "Shape": "Ball"
-          }
-        },
-        "Rock2": {
-          "$className": "Part",
-          "$properties": {
-            "Anchored": true,
-            "Size": [
-              5,
-              3.5,
-              6
-            ],
-            "Position": [
-              125.574,
-              7.8,
-              72.5
-            ],
-            "Color": [
-              0.411765,
-              0.435294,
-              0.458824
-            ],
-            "Material": "Slate",
-            "Transparency": 0,
-            "CanCollide": true,
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth",
-            "Shape": "Ball"
-          }
-        },
-        "Rock3": {
-          "$className": "Part",
-          "$properties": {
-            "Anchored": true,
-            "Size": [
-              5,
-              3.5,
-              6
-            ],
-            "Position": [
-              72.5,
-              7.8,
-              125.574
-            ],
-            "Color": [
-              0.411765,
-              0.435294,
-              0.458824
-            ],
-            "Material": "Slate",
-            "Transparency": 0,
-            "CanCollide": true,
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth",
-            "Shape": "Ball"
-          }
-        },
-        "Rock4": {
-          "$className": "Part",
-          "$properties": {
-            "Anchored": true,
-            "Size": [
-              5,
-              3.5,
-              6
-            ],
-            "Position": [
-              0.0,
-              7.8,
-              145.0
-            ],
-            "Color": [
-              0.411765,
-              0.435294,
-              0.458824
-            ],
-            "Material": "Slate",
-            "Transparency": 0,
-            "CanCollide": true,
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth",
-            "Shape": "Ball"
-          }
-        },
-        "Rock5": {
-          "$className": "Part",
-          "$properties": {
-            "Anchored": true,
-            "Size": [
-              5,
-              3.5,
-              6
-            ],
-            "Position": [
-              -72.5,
-              7.8,
-              125.574
-            ],
-            "Color": [
-              0.411765,
-              0.435294,
-              0.458824
-            ],
-            "Material": "Slate",
-            "Transparency": 0,
-            "CanCollide": true,
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth",
-            "Shape": "Ball"
-          }
-        },
-        "Rock6": {
-          "$className": "Part",
-          "$properties": {
-            "Anchored": true,
-            "Size": [
-              5,
-              3.5,
-              6
-            ],
-            "Position": [
-              -125.574,
-              7.8,
-              72.5
-            ],
-            "Color": [
-              0.411765,
-              0.435294,
-              0.458824
-            ],
-            "Material": "Slate",
-            "Transparency": 0,
-            "CanCollide": true,
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth",
-            "Shape": "Ball"
-          }
-        },
-        "Rock7": {
-          "$className": "Part",
-          "$properties": {
-            "Anchored": true,
-            "Size": [
-              5,
-              3.5,
-              6
-            ],
-            "Position": [
-              -145.0,
-              7.8,
-              0.0
-            ],
-            "Color": [
-              0.411765,
-              0.435294,
-              0.458824
-            ],
-            "Material": "Slate",
-            "Transparency": 0,
-            "CanCollide": true,
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth",
-            "Shape": "Ball"
-          }
-        },
-        "Rock8": {
-          "$className": "Part",
-          "$properties": {
-            "Anchored": true,
-            "Size": [
-              5,
-              3.5,
-              6
-            ],
-            "Position": [
-              -125.574,
-              7.8,
-              -72.5
-            ],
-            "Color": [
-              0.411765,
-              0.435294,
-              0.458824
-            ],
-            "Material": "Slate",
-            "Transparency": 0,
-            "CanCollide": true,
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth",
-            "Shape": "Ball"
-          }
-        },
-        "Rock9": {
-          "$className": "Part",
-          "$properties": {
-            "Anchored": true,
-            "Size": [
-              5,
-              3.5,
-              6
-            ],
-            "Position": [
-              -72.5,
-              7.8,
-              -125.574
-            ],
-            "Color": [
-              0.411765,
-              0.435294,
-              0.458824
-            ],
-            "Material": "Slate",
-            "Transparency": 0,
-            "CanCollide": true,
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth",
-            "Shape": "Ball"
-          }
-        },
-        "Rock10": {
-          "$className": "Part",
-          "$properties": {
-            "Anchored": true,
-            "Size": [
-              5,
-              3.5,
-              6
-            ],
-            "Position": [
-              -0.0,
-              7.8,
-              -145.0
-            ],
-            "Color": [
-              0.411765,
-              0.435294,
-              0.458824
-            ],
-            "Material": "Slate",
-            "Transparency": 0,
-            "CanCollide": true,
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth",
-            "Shape": "Ball"
-          }
-        },
-        "Rock11": {
-          "$className": "Part",
-          "$properties": {
-            "Anchored": true,
-            "Size": [
-              5,
-              3.5,
-              6
-            ],
-            "Position": [
-              72.5,
-              7.8,
-              -125.574
-            ],
-            "Color": [
-              0.411765,
-              0.435294,
-              0.458824
-            ],
-            "Material": "Slate",
-            "Transparency": 0,
-            "CanCollide": true,
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth",
-            "Shape": "Ball"
-          }
-        },
-        "Rock12": {
-          "$className": "Part",
-          "$properties": {
-            "Anchored": true,
-            "Size": [
-              5,
-              3.5,
-              6
-            ],
-            "Position": [
-              125.574,
-              7.8,
-              -72.5
-            ],
-            "Color": [
-              0.411765,
-              0.435294,
-              0.458824
-            ],
-            "Material": "Slate",
-            "Transparency": 0,
-            "CanCollide": true,
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth",
-            "Shape": "Ball"
           }
         }
       }
@@ -1845,7 +3714,7 @@
     "Lighting": {
       "$className": "Lighting",
       "$properties": {
-        "Brightness": 2.2,
+        "Brightness": 2.3,
         "ClockTime": 14,
         "Ambient": [
           0.45098,
